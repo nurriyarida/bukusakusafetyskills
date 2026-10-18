@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    background-color: #FDFBF7;
+    color: #2D2926;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Georgia', 'Times New Roman', serif !important;
+    letter-spacing: 0 !important;
+  }
+}
+
+.bg-natural-bg { background-color: #fdfbf7; }
+.bg-natural-card { background-color: #f2ede4; }
+.border-natural { border-color: #e8e2d9; }
+.text-natural-heading { color: #4a443f; }
+.text-natural-body { color: #7c7267; }
+.bg-sage { background-color: #5a7d6c; }
+.bg-sage-dark { background-color: #4a6658; }
+.bg-sage-light { background-color: #ebf2ee; }
+.bg-terracotta { background-color: #e66b6b; }
+.bg-terracotta-dark { background-color: #d45959; }
+.bg-ochre { background-color: #e0b56e; }
+.border-ochre-dark { border-color: #b59155; }
+
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+.story-scene { isolation: isolate; }
+.pocket-book { font-family: 'Nunito', 'Segoe UI', sans-serif; }
+.pocket-book h2, .pocket-book h3 {
+  letter-spacing: 0.005em;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 500;
+  line-height: 1.25;
+}
+.pocket-book h3 { font-size: clamp(1.35rem, 2.4vw, 1.65rem); }
+.pocket-book .book-content { line-height: 1.75; }
+.pocket-book .book-content > div { width: 100%; }
+.pocket-book .book-item-heading {
+  color: #454039;
+  margin-bottom: 0.35rem;
+  line-height: 1.4;
+}
+.pocket-book button { line-height: 1.5; }
+
+.story-art {
+  background: #fffaf0;
+  border-radius: 16px;
+  flex-shrink: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.story-art img {
+  height: auto;
+  position: absolute;
+}
+.art-icon { width: 46px; max-width: 100%; }
+.art-avatar { width: 76px; }
+.art-reward { width: 132px; }
+.quiz-art, .roleplay-art { width: min(100%, 560px); margin-inline: auto; }
+.feedback-art { width: 70px; margin: 8px auto; }
+
+button:focus-visible {
+  outline-offset: 4px;
+  outline: 3px solid #2367a1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.text-scale-large {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-scale-xlarge {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}

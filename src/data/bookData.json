@@ -1,0 +1,976 @@
+{
+  "defaultContacts": {
+    "teacherName": "Bapak / Ibu Guru Pendamping",
+    "teacherPhone": "081234567890",
+    "parentName": "Ibu / Ayah (Orang Tua)",
+    "parentPhone": "081987654321",
+    "policePhone": "110"
+  },
+  "lostModule": [
+    {
+      "spreadNumber": 1,
+      "leftPage": {
+        "pageNumber": 1,
+        "title": "Langkah 1: Berhenti & Tenang",
+        "subtitle": "Berhenti di tempat aman, tidak panik, tidak berjalan semakin jauh.",
+        "icon": "🛑",
+        "illustrationType": "lost-1",
+        "illustrationBadge": "LANGKAH 1",
+        "audioText": "Halaman Satu. Langkah Satu: Berhenti dan tenang. Berhenti di tempat aman, tidak panik, dan tidak berjalan semakin jauh.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Yang Harus Dilakukan:",
+            "text": "Berhenti di tempat aman yang terang seperti di depan toko. Diam di tempat, jangan berjalan semakin jauh.",
+            "icon": "🧍"
+          },
+          {
+            "type": "warning",
+            "heading": "Jangan Lakukan Ini:",
+            "text": "Jangan panik, jangan menangis histeris, dan jangan lari ke lorong sepi atau jalan raya.",
+            "icon": "🏃‍♂️"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 2,
+        "title": "Latihan Menenangkan Diri",
+        "subtitle": "Tarik napas perlahan dan lihat sekelilingmu.",
+        "icon": "🧘‍♂️",
+        "audioText": "Halaman Dua. Latihan menenangkan diri. Tarik napas perlahan lewat hidung, lalu hembuskan. Hatiku tenang, aku anak berani.",
+        "practiceSpeech": "Tarik napas perlahan... Aku tenang, aku tidak panik.",
+        "interactivePrompt": "Saat kamu tersesat di tempat umum, apa tindakan pertamamu?",
+        "options": [
+          {
+            "id": "opt-l1-safe",
+            "text": "Berhenti di Tempat Aman & Tenang",
+            "icon": "🏪",
+            "isSafe": true,
+            "feedback": "Hebat! Tetap diam di tempat terang dan tenang agar mudah ditemukan."
+          },
+          {
+            "id": "opt-l1-unsafe",
+            "text": "Lari Panik ke Luar Jalan Raya",
+            "icon": "🏃‍♂️",
+            "isSafe": false,
+            "feedback": "Hati-hati! Jalan raya berbahaya. Lebih aman berdiri di depan toko."
+          }
+        ],
+        "contentItems": []
+      }
+    },
+    {
+      "spreadNumber": 2,
+      "leftPage": {
+        "pageNumber": 3,
+        "title": "Langkah 2: Cari Orang Dewasa yang Aman",
+        "subtitle": "Mencari petugas berseragam (satpam, kasir, polisi) di lokasi.",
+        "icon": "👮‍♂️",
+        "illustrationType": "lost-2",
+        "illustrationBadge": "LANGKAH 2",
+        "audioText": "Halaman Tiga. Langkah Dua: Cari orang dewasa yang aman. Mencari petugas berseragam seperti satpam, kasir, atau polisi di lokasi.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Petugas Berseragam Resmi:",
+            "text": "Pak Satpam bertopi satpam, Ibu Kasir di meja toko, atau Pak Polisi berseragam.",
+            "icon": "🛡️"
+          },
+          {
+            "type": "warning",
+            "heading": "Waspada Orang Asing:",
+            "text": "Jangan mendekati orang asing tidak berseragam yang memaksa mengajak pergi atau naik motor.",
+            "icon": "🙅‍♂️"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 4,
+        "title": "Menyapa Petugas Satpam",
+        "subtitle": "Sapa petugas dengan santun dan berani.",
+        "icon": "🏪",
+        "audioText": "Halaman Empat. Menyapa petugas. Ucapkan dengan santun: Permisi Pak Satpam, saya tersesat, tolong bantu hubungi guru saya.",
+        "practiceSpeech": "Permisi Pak Satpam, saya tersesat. Tolong bantu saya ya Pak.",
+        "interactivePrompt": "Siapa penolong berseragam yang aman didekati?",
+        "options": [
+          {
+            "id": "opt-l2-safe",
+            "text": "Pak Satpam Berseragam Resmi",
+            "icon": "👮‍♂️",
+            "isSafe": true,
+            "feedback": "Tepat sekali! Satpam berseragam bertugas menjaga keamanan dan siap menolongmu."
+          },
+          {
+            "id": "opt-l2-unsafe",
+            "text": "Orang Asing Tak Dikenal di Lorong Sepi",
+            "icon": "❓",
+            "isSafe": false,
+            "feedback": "Jangan ya! Selalu prioritaskan petugas yang memakai seragam resmi."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "dialogue",
+            "heading": "Contoh Sapaan:",
+            "text": "\"Permisi Pak Satpam, saya terpisah dari Ibu Guru saya.\"",
+            "icon": "🗣️"
+          }
+        ]
+      }
+    },
+    {
+      "spreadNumber": 3,
+      "leftPage": {
+        "pageNumber": 5,
+        "title": "Langkah 3: Minta Bantuan",
+        "subtitle": "Menggunakan ponsel untuk menghubungi orang tua/guru.",
+        "icon": "📱",
+        "illustrationType": "lost-3",
+        "illustrationBadge": "LANGKAH 3",
+        "audioText": "Halaman Lima. Langkah Tiga: Minta bantuan. Menggunakan ponsel untuk menghubungi orang tua atau guru.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Gunakan Ponselmu:",
+            "text": "Buka ponsel dan hubungi nomor telepon Guru atau Orang Tua yang sudah disimpan.",
+            "icon": "📞"
+          },
+          {
+            "type": "checklist",
+            "heading": "Sebutkan Lokasimu:",
+            "text": "Katakan nama toko atau sebutkan bahwa kamu sedang bersama Pak Satpam berseragam.",
+            "icon": "📍"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 6,
+        "title": "Latihan Berbicara di Telepon",
+        "subtitle": "Bicara dengan suara jelas dan tenang.",
+        "icon": "🗣️",
+        "audioText": "Halaman Enam. Latihan berbicara di telepon. Halo Ibu Guru, saya tersesat di depan toko bersama Pak Satpam.",
+        "practiceSpeech": "Halo Ibu Guru, saya tersesat di depan toko bersama Pak Satpam.",
+        "interactivePrompt": "Kepada siapa kamu meminta bantuan lewat telepon?",
+        "options": [
+          {
+            "id": "opt-l3-safe",
+            "text": "Menelepon Guru atau Orang Tua",
+            "icon": "📱",
+            "isSafe": true,
+            "feedback": "Sangat pintar! Guru dan orang tua akan segera datang menjemputmu."
+          },
+          {
+            "id": "opt-l3-unsafe",
+            "text": "Menelepon Orang Asing Tak Dikenal",
+            "icon": "❌",
+            "isSafe": false,
+            "feedback": "Jangan ya! Hubungi hanya orang dewasa terpercaya yang kamu kenal."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "tip",
+            "heading": "Kartu Kontak Darurat:",
+            "text": "Simpan nomor HP Guru di kontak cepat ponsel atau di saku bajumu.",
+            "icon": "📇"
+          }
+        ]
+      }
+    },
+    {
+      "spreadNumber": 4,
+      "leftPage": {
+        "pageNumber": 7,
+        "title": "Langkah 4: Tombol Darurat",
+        "subtitle": "Menekan tombol/hotline darurat pada media sebagai opsi tambahan.",
+        "icon": "🚨",
+        "illustrationType": "lost-4",
+        "illustrationBadge": "LANGKAH 4",
+        "audioText": "Halaman Tujuh. Langkah Empat: Tombol darurat. Menekan tombol atau hotline darurat pada media sebagai opsi tambahan.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Tombol Bantuan di Aplikasi:",
+            "text": "Tekan tombol merah BANTUAN di bagian paling bawah aplikasi Buku Saku ini.",
+            "icon": "🆘"
+          },
+          {
+            "type": "checklist",
+            "heading": "Panggilan Cepat Darurat:",
+            "text": "Aplikasi akan langsung membuka sambungan telepon darurat ke Guru atau Polisi 110.",
+            "icon": "⚡"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 8,
+        "title": "Cara Menggunakan Tombol Bantuan",
+        "subtitle": "Gunakan saat kamu membutuhkan bantuan cepat.",
+        "icon": "🛡️",
+        "audioText": "Halaman Delapan. Tombol bantuan di bawah layar selalu siap membantumu jika merasa bingung atau takut.",
+        "practiceSpeech": "Aku tekan tombol Bantuan di bawah layar untuk panggil guru.",
+        "interactivePrompt": "Di mana letak tombol Bantuan darurat pada media?",
+        "options": [
+          {
+            "id": "opt-l4-safe",
+            "text": "Tombol Merah BANTUAN di Paling Bawah Layar",
+            "icon": "🚨",
+            "isSafe": true,
+            "feedback": "Benar sekali! Tombol merah di bagian paling bawah selalu tersedia untukmu."
+          },
+          {
+            "id": "opt-l4-unsafe",
+            "text": "Mematikan Layar Ponsel & Panik",
+            "icon": "📴",
+            "isSafe": false,
+            "feedback": "Tetap hidupkan ponselmu dan gunakan tombol Bantuan ya."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "warning",
+            "heading": "Pesan Keselamatan:",
+            "text": "Tombol Bantuan khusus digunakan untuk situasi darurat dan latihan bersama Guru.",
+            "icon": "📌"
+          }
+        ]
+      }
+    },
+    {
+      "spreadNumber": 5,
+      "leftPage": {
+        "pageNumber": 9,
+        "title": "Rangkuman 4 Langkah Saat Tersesat",
+        "subtitle": "Ingat selalu 4 urutan langkah aman ini.",
+        "icon": "🌟",
+        "illustrationType": "lost-summary",
+        "illustrationBadge": "KESIMPULAN",
+        "audioText": "Halaman Sembilan. Kesimpulan. Ketika tersesat, murid perlu tetap tenang, mencari orang dewasa yang aman, dan segera meminta bantuan.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Langkah 1: Berhenti & Tenang",
+            "text": "Berhenti di tempat aman, tidak panik, tidak berjalan semakin jauh.",
+            "icon": "1️⃣"
+          },
+          {
+            "type": "checklist",
+            "heading": "Langkah 2: Cari Orang Dewasa yang Aman",
+            "text": "Mencari petugas berseragam (satpam, kasir, polisi) di lokasi.",
+            "icon": "2️⃣"
+          },
+          {
+            "type": "checklist",
+            "heading": "Langkah 3: Minta Bantuan",
+            "text": "Menggunakan ponsel untuk menghubungi orang tua atau guru.",
+            "icon": "3️⃣"
+          },
+          {
+            "type": "checklist",
+            "heading": "Langkah 4: Tombol Darurat",
+            "text": "Menekan tombol atau hotline darurat pada media sebagai opsi tambahan.",
+            "icon": "4️⃣"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 10,
+        "title": "Kesimpulan Penting",
+        "subtitle": "Pesan utama keselamatan ketika tersesat di komunitas.",
+        "icon": "👍",
+        "audioText": "Halaman Sepuluh. Kesimpulan: Ketika tersesat, murid perlu tetap tenang, mencari orang dewasa yang aman, dan segera meminta bantuan. Kamu anak hebat dan mandiri!",
+        "practiceSpeech": "Ketika tersesat: Tetap tenang, cari satpam, dan minta bantuan!",
+        "interactivePrompt": "Apakah kamu sudah siap lanjut membaca Buku 2?",
+        "options": [
+          {
+            "id": "opt-l5-ready",
+            "text": "Ya, Lanjut Membaca Buku 2!",
+            "icon": "🌟",
+            "isSafe": true,
+            "feedback": "Hebat sekali! Ayo lanjut belajar Buku 2 tentang menghadapi perundungan."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "rule",
+            "heading": "Intisari Poster:",
+            "text": "\"Ketika tersesat, murid perlu tetap tenang, mencari orang dewasa yang aman, dan segera meminta bantuan.\"",
+            "icon": "💖",
+            "highlight": true
+          }
+        ]
+      }
+    }
+  ],
+  "bullyingModule": [
+    {
+      "spreadNumber": 1,
+      "leftPage": {
+        "pageNumber": 1,
+        "title": "Langkah 1: Menahan Diri",
+        "subtitle": "Tidak membalas dengan kekerasan atau ejekan balik.",
+        "icon": "🧘‍♂️",
+        "illustrationType": "bully-1",
+        "illustrationBadge": "LANGKAH 1",
+        "audioText": "Halaman Satu. Langkah Satu: Menahan diri. Tidak membalas dengan kekerasan atau ejekan balik. Tarik napas perlahan.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Yang Harus Dilakukan:",
+            "text": "Tarik napas dalam-dalam. Pejamkan mata sejenak, tenangkan perasaanmu.",
+            "icon": "🌬️"
+          },
+          {
+            "type": "warning",
+            "heading": "Jangan Lakukan Ini:",
+            "text": "Tidak membalas dengan kekerasan, tidak memukul, tidak mendorong, dan tidak mengejek balik.",
+            "icon": "🚫"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 2,
+        "title": "Latihan Tarik Napas Tenang",
+        "subtitle": "Hatiku tenang, aku bisa mengendalikan diriku.",
+        "icon": "🤍",
+        "audioText": "Halaman Dua. Latihan tarik napas. Tarik napas lewat hidung, hembuskan lewat mulut. Aku tenang, aku tidak membalas kekerasan.",
+        "practiceSpeech": "Tarik napas... Aku tenang, aku tidak membalas.",
+        "interactivePrompt": "Saat ada teman mengejek, apa langkah pertamamu?",
+        "options": [
+          {
+            "id": "opt-b1-safe",
+            "text": "Menahan Diri & Menarik Napas Tenang",
+            "icon": "🧘‍♂️",
+            "isSafe": true,
+            "feedback": "Hebat sekali! Menahan diri menunjukkan kamu anak yang kuat dan pintar."
+          },
+          {
+            "id": "opt-b1-unsafe",
+            "text": "Membalas Memukul & Berkelahi",
+            "icon": "👊",
+            "isSafe": false,
+            "feedback": "Jangan membalas dengan kekerasan ya. Itu bisa melukai dirimu dan orang lain."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "tip",
+            "heading": "Pikiran Positif:",
+            "text": "\"Aku anak baik. Ejekan orang lain tidak membuatku rendah.\"",
+            "icon": "✨"
+          }
+        ]
+      }
+    },
+    {
+      "spreadNumber": 2,
+      "leftPage": {
+        "pageNumber": 3,
+        "title": "Langkah 2: Menyatakan Ketidaksetujuan",
+        "subtitle": "Mengucapkan kalimat singkat dan tegas.",
+        "icon": "✋",
+        "illustrationType": "bully-2",
+        "illustrationBadge": "LANGKAH 2",
+        "audioText": "Halaman Tiga. Langkah Dua: Menyatakan ketidaksetujuan. Mengucapkan kalimat singkat dan tegas. Aku tidak suka!",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Gestur Telapak Tangan STOP:",
+            "text": "Angkat tangan ke depan dengan telapak tangan terbuka tegak menghadap teman.",
+            "icon": "🖐️"
+          },
+          {
+            "type": "checklist",
+            "heading": "Kalimat Singkat & Tegas:",
+            "text": "Katakan dengan lantang dan percaya diri: \"Aku tidak suka!\" atau \"STOP, jangan lakukan itu!\"",
+            "icon": "🗣️"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 4,
+        "title": "Latihan Bicara \"Aku Tidak Suka!\"",
+        "subtitle": "Katakan dengan mata memandang ke depan dan wajah tegas.",
+        "icon": "⚡",
+        "audioText": "Halaman Empat. Ayo latih suara ini. Angkat tanganmu ke depan dan ucapkan: Aku tidak suka! Stop, jangan ganggu aku!",
+        "practiceSpeech": "Aku tidak suka! STOP, jangan ganggu aku!",
+        "interactivePrompt": "Bagaimana cara menyatakan ketidaksetujuan dengan tepat?",
+        "options": [
+          {
+            "id": "opt-b2-safe",
+            "text": "Angkat Tangan & Katakan: \"Aku Tidak Suka!\"",
+            "icon": "✋",
+            "isSafe": true,
+            "feedback": "Luar biasa! Gestur tangan dan suara tegas menandakan batasan dirimu."
+          },
+          {
+            "id": "opt-b2-unsafe",
+            "text": "Tertawa Diam Saja Padahal Merasa Sakit",
+            "icon": "🤐",
+            "isSafe": false,
+            "feedback": "Jangan dipendam ya. Kamu berhak menolak perlakuan yang tidak kamu sukai."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "dialogue",
+            "heading": "Kalimat Teladan:",
+            "text": "\"Aku tidak suka diperlakukan seperti ini. Hentikan sekarang!\"",
+            "icon": "📢"
+          }
+        ]
+      }
+    },
+    {
+      "spreadNumber": 3,
+      "leftPage": {
+        "pageNumber": 5,
+        "title": "Langkah 3: Menjauh",
+        "subtitle": "Menjauh dari pelaku perundungan.",
+        "icon": "🚶‍♂️",
+        "illustrationType": "bully-3",
+        "illustrationBadge": "LANGKAH 3",
+        "audioText": "Halaman Lima. Langkah Tiga: Menjauh. Menjauh dari pelaku perundungan ke tempat yang aman dan ramai.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Segera Melangkah Pergi:",
+            "text": "Berbalik arah dan melangkahlah menjauh dengan tenang tanpa panik.",
+            "icon": "👣"
+          },
+          {
+            "type": "checklist",
+            "heading": "Tuju Tempat Ramai & Terang:",
+            "text": "Berjalanlah ke arah ruang guru, kelas yang ramai, atau dekat teman-teman baik.",
+            "icon": "🏫"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 6,
+        "title": "Melangkah Menjauh dengan Aman",
+        "subtitle": "Menjauh adalah keputusan cerdas untuk melindungi dirimu.",
+        "icon": "🛡️",
+        "audioText": "Halaman Enam. Melangkah menjauh. Jangan tetap berdiri di dekat pelaku. Segera jalan ke arah orang dewasa.",
+        "practiceSpeech": "Aku melangkah menjauh ke tempat yang aman dan ramai.",
+        "interactivePrompt": "Setelah berkata STOP, apa langkah selanjutnya?",
+        "options": [
+          {
+            "id": "opt-b3-safe",
+            "text": "Menjauh Menuju Ruang Guru / Tempat Ramai",
+            "icon": "🚶‍♂️",
+            "isSafe": true,
+            "feedback": "Tepat sekali! Menjauh memutus gangguan dan membawamu ke tempat aman."
+          },
+          {
+            "id": "opt-b3-unsafe",
+            "text": "Tetap Diam Berdiri Menunggu Diejek Lagi",
+            "icon": "🧍",
+            "isSafe": false,
+            "feedback": "Jangan tetap berdiri di sana ya. Segera langkahkan kaki menjauh."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "tip",
+            "heading": "Bukan Pengecut:",
+            "text": "Menjauh bukan berarti takut, melainkan tindakan pintar melindungi keselamatan diri.",
+            "icon": "🌟"
+          }
+        ]
+      }
+    },
+    {
+      "spreadNumber": 4,
+      "leftPage": {
+        "pageNumber": 7,
+        "title": "Langkah 4: Melapor",
+        "subtitle": "Melaporkan kejadian kepada guru/orang dewasa yang dipercaya.",
+        "icon": "👩‍🏫",
+        "illustrationType": "bully-4",
+        "illustrationBadge": "LANGKAH 4",
+        "audioText": "Halaman Tujuh. Langkah Empat: Melapor. Melaporkan kejadian kepada guru atau orang dewasa yang dipercaya. Bu Guru, tadi aku diejek.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Ceritakan dengan Jujur:",
+            "text": "Katakan kepada Ibu Guru: \"Bu Guru, tadi aku diejek, tolong bantu aku.\"",
+            "icon": "💬"
+          },
+          {
+            "type": "checklist",
+            "heading": "Guru Adalah Pelindung:",
+            "text": "Guru selalu siap mendengarkan, melindungimu, dan menyelesaikan masalah di sekolah.",
+            "icon": "🤝"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 8,
+        "title": "Latihan Melapor ke Guru",
+        "subtitle": "Berani melapor adalah perbuatan yang benar dan terpuji.",
+        "icon": "🗣️",
+        "audioText": "Halaman Delapan. Latihan melapor. Bu Guru, tadi aku diejek teman, tolong bantu aku ya Bu.",
+        "practiceSpeech": "Bu Guru, tadi aku diejek. Tolong bantu saya ya Bu.",
+        "interactivePrompt": "Kepada siapa kamu harus melapor saat mengalami perundungan?",
+        "options": [
+          {
+            "id": "opt-b4-safe",
+            "text": "Melapor kepada Guru / Orang Tua",
+            "icon": "👩‍🏫",
+            "isSafe": true,
+            "feedback": "Sangat benar! Guru dan orang tua akan segera membantumu menyelesaikan masalah."
+          },
+          {
+            "id": "opt-b4-unsafe",
+            "text": "Takut & Menyembunyikannya Sendirian",
+            "icon": "🤫",
+            "isSafe": false,
+            "feedback": "Jangan disembunyikan ya. Guru selalu siap menyayangi dan melindungimu."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "warning",
+            "heading": "Jangan Takut Ancaman:",
+            "text": "Jika teman melarangmu melapor, tetaplah lapor kepada Guru! Melapor itu benar.",
+            "icon": "💪"
+          }
+        ]
+      }
+    },
+    {
+      "spreadNumber": 5,
+      "leftPage": {
+        "pageNumber": 9,
+        "title": "Rangkuman 4 Langkah Bersikap Tepat",
+        "subtitle": "Empat langkah berani menghadapi perundungan.",
+        "icon": "🌈",
+        "illustrationType": "bully-summary",
+        "illustrationBadge": "KESIMPULAN",
+        "audioText": "Halaman Sembilan. Kesimpulan: Ketika diganggu atau diejek, murid perlu menahan diri, menolak dengan tegas, menjauh, dan melapor kepada orang dewasa yang dipercaya.",
+        "contentItems": [
+          {
+            "type": "checklist",
+            "heading": "Langkah 1: Menahan Diri",
+            "text": "Tidak membalas dengan kekerasan atau ejekan balik. Tarik napas...",
+            "icon": "1️⃣"
+          },
+          {
+            "type": "checklist",
+            "heading": "Langkah 2: Menyatakan Ketidaksetujuan",
+            "text": "Mengucapkan kalimat singkat dan tegas: \"Aku tidak suka!\"",
+            "icon": "2️⃣"
+          },
+          {
+            "type": "checklist",
+            "heading": "Langkah 3: Menjauh",
+            "text": "Menjauh dari pelaku perundungan ke tempat aman.",
+            "icon": "3️⃣"
+          },
+          {
+            "type": "checklist",
+            "heading": "Langkah 4: Melapor",
+            "text": "Melaporkan kejadian kepada guru atau orang dewasa yang dipercaya.",
+            "icon": "4️⃣"
+          }
+        ]
+      },
+      "rightPage": {
+        "pageNumber": 10,
+        "title": "Kesimpulan Penting",
+        "subtitle": "Pesan utama sikap tepat saat diganggu atau diejek.",
+        "icon": "👍",
+        "audioText": "Halaman Sepuluh. Kesimpulan: Ketika diganggu atau diejek, murid perlu menahan diri, menolak dengan tegas, menjauh, dan melapor kepada orang dewasa yang dipercaya.",
+        "practiceSpeech": "Tahan diri, tolak tegas, menjauh, dan lapor ke Guru!",
+        "interactivePrompt": "Apakah kamu sudah siap mencoba kuis evaluasi?",
+        "options": [
+          {
+            "id": "opt-b5-ready",
+            "text": "Ya, Lanjut ke Kuis Evaluasi!",
+            "icon": "🌟",
+            "isSafe": true,
+            "feedback": "Luar biasa! Ayo lanjut ke modul kuis evaluasi 5 soal."
+          }
+        ],
+        "contentItems": [
+          {
+            "type": "rule",
+            "heading": "Intisari Poster:",
+            "text": "\"Ketika diganggu/diejek, murid perlu menahan diri, menolak dengan tegas, menjauh, dan melapor kepada orang dewasa yang dipercaya.\"",
+            "icon": "💖",
+            "highlight": true
+          }
+        ]
+      }
+    }
+  ],
+  "roleplayScenarios": [
+    {
+      "id": "rp-tersesat",
+      "title": "Praktik 1: Arahan Saat Tersesat (Sesuai Materi Buku 1)",
+      "theme": "tersesat",
+      "icon": "🧭",
+      "scenarioDesc": "Panduan arahan bagi Guru (berperan sebagai Pak Satpam penolong berseragam) dan Murid berlatih mempraktikkan 4 langkah keselamatan saat terpisah di pusat perbelanjaan atau tempat umum.",
+      "teacherRole": "Pak Satpam Berseragam (Penolong Aman)",
+      "studentRole": "Murid yang Terpisah & Minta Bantuan",
+      "steps": [
+        {
+          "stepIndex": 1,
+          "stepTitle": "Langkah 1: Berhenti & Tenang di Depan Toko",
+          "teacherAction": "Guru memberi isyarat bahwa murid terpisah. Guru mengamati apakah murid berhenti melangkah di tempat terang dan menarik napas tanpa panik.",
+          "teacherSpeech": "\"Halo anak baik! Kenapa kamu berdiri tenang di depan toko ini? Apakah kamu terpisah dari gurumu?\"",
+          "studentAction": "Murid berdiri tegak di tempat terang, menarik napas dalam-dalam, tidak panik, dan tidak berjalan semakin jauh.",
+          "studentSpeech": "\"Iya Pak Satpam, saya terpisah dari Ibu Guru saya.\"",
+          "audioSample": "Iya Pak Satpam, saya terpisah dari Ibu Guru saya.",
+          "tipsForTeacher": "Validasi keberanian murid karena telah berhasil berhenti tenang dan tidak panik."
+        },
+        {
+          "stepIndex": 2,
+          "stepTitle": "Langkah 2: Mencari & Menyapa Petugas Berseragam",
+          "teacherAction": "Guru menunjukkan topi atau atribut tanda pengenal satpam, tersenyum ramah dan bersiap mencatat informasi murid.",
+          "teacherSpeech": "\"Saya Pak Satpam di sini. Jangan takut ya, kamu aman bersama saya. Siapa namamu dan siapa nama gurumu?\"",
+          "studentAction": "Murid memandang wajah satpam dengan sopan, menyapa santun, dan menyebutkan nama dirinya.",
+          "studentSpeech": "\"Permisi Pak, saya tersesat. Tolong bantu hubungi Ibu Guru saya ya Pak.\"",
+          "audioSample": "Permisi Pak, saya tersesat. Tolong bantu hubungi Ibu Guru saya ya Pak.",
+          "tipsForTeacher": "Berikan contoh intonasi suara yang ramah dan menenangkan agar murid terbiasa percaya pada petugas berseragam."
+        },
+        {
+          "stepIndex": 3,
+          "stepTitle": "Langkah 3: Minta Bantuan Telepon atau Kartu Kontak",
+          "teacherAction": "Guru mengeluarkan ponsel atau memeriksa kartu kontak darurat murid untuk simulasi memanggil guru.",
+          "teacherSpeech": "\"Bagus sekali! Apakah kamu punya nomor ponsel gurumu? Ayo kita telepon bersama-sama sekarang.\"",
+          "studentAction": "Murid menunjukkan ponsel atau kartu nama yang mencantumkan nomor telepon guru atau orang tua.",
+          "studentSpeech": "\"Ini nomor telepon Ibu Guru saya di ponsel, tolong ditelepon ya Pak Satpam.\"",
+          "audioSample": "Ini nomor telepon Ibu Guru saya di ponsel, tolong ditelepon ya Pak Satpam.",
+          "tipsForTeacher": "Bimbing murid cara membuka kontak cepat darurat pada ponsel mereka."
+        },
+        {
+          "stepIndex": 4,
+          "stepTitle": "Langkah 4: Menekan Tombol Bantuan pada Media",
+          "teacherAction": "Guru membimbing murid melihat tombol Bantuan merah di bagian bawah media sebagai opsi tambahan.",
+          "teacherSpeech": "\"Pintar sekali! Jika di ponselmu ada aplikasi Buku Saku, kamu juga bisa menekan tombol Bantuan merah di bagian bawah.\"",
+          "studentAction": "Murid memperagakan menekan tombol merah BANTUAN di bawah layar untuk melakukan panggilan darurat.",
+          "studentSpeech": "\"Aku tekan tombol Bantuan di bawah layar sekarang.\"",
+          "audioSample": "Aku tekan tombol Bantuan di bawah layar sekarang.",
+          "tipsForTeacher": "Pastikan murid tahu bahwa tombol bantuan ini menghubungkan langsung ke nomor darurat guru."
+        }
+      ],
+      "criteriaChecklist": [
+        "Murid mampu berhenti dan tidak panik saat terpisah",
+        "Murid mampu mendekati petugas berseragam dengan sopan",
+        "Murid mampu menyebutkan nama diri dan nama guru",
+        "Murid mampu menunjukkan nomor telepon guru atau menekan tombol bantuan"
+      ]
+    },
+    {
+      "id": "rp-bullying",
+      "title": "Praktik 2: Arahan Saat Diganggu (Sesuai Materi Buku 2)",
+      "theme": "bullying",
+      "icon": "✋",
+      "scenarioDesc": "Panduan arahan bagi Guru dan Murid mempraktikkan langsung 4 langkah respons terhadap perundungan: menahan diri, menyatakan ketidaksetujuan (\"Aku tidak suka!\"), menjauh, dan melapor.",
+      "teacherRole": "Guru Pendamping (Simulasi Aman & Tempat Melapor)",
+      "studentRole": "Murid yang Berlatih Tegas & Berani",
+      "steps": [
+        {
+          "stepIndex": 1,
+          "stepTitle": "Langkah 1: Menahan Diri & Tarik Napas",
+          "teacherAction": "Guru memperagakan situasi ringan (misal mengambil mainan atau kata ejekan kecil secara terkontrol), lalu mengarahkan murid untuk menahan diri.",
+          "teacherSpeech": "\"(Simulasi lembut) Hei, mainanmu jelek sekali! Nah, sekarang ingat langkah satu: tahan dirimu, jangan memukul ya!\"",
+          "studentAction": "Murid memejamkan mata sejenak, menarik napas dalam-dalam lewat hidung, tidak membalas dengan pukulan atau ejekan.",
+          "studentSpeech": "\"Tarik napas... Aku tenang, aku tidak membalas memukul.\"",
+          "audioSample": "Tarik napas... Aku tenang, aku tidak membalas memukul.",
+          "tipsForTeacher": "Latih teknik relaksasi napas 3 hitungan agar anak terbiasa meregulasi emosi secara fisik."
+        },
+        {
+          "stepIndex": 2,
+          "stepTitle": "Langkah 2: Gestur Tangan STOP & Bicara \"Aku Tidak Suka!\"",
+          "teacherAction": "Guru berdiri di hadapan murid dan menunggu murid memperagakan gestur telapak tangan terbuka tegak.",
+          "teacherSpeech": "\"Sekarang angkat tanganmu lurus ke depan, tatap mata Ibu Guru, dan katakan kalimat penolakanmu dengan tegas!\"",
+          "studentAction": "Murid mengangkat telapak tangan kanan lurus ke depan dengan tegas dan bersuara lantang.",
+          "studentSpeech": "\"Aku tidak suka! STOP, jangan ganggu aku!\"",
+          "audioSample": "Aku tidak suka! STOP, jangan ganggu aku!",
+          "tipsForTeacher": "Beri apresiasi tinggi saat anak berhasil menyuarakan kata \"Aku tidak suka!\" dengan mantap."
+        },
+        {
+          "stepIndex": 3,
+          "stepTitle": "Langkah 3: Menjauh ke Tempat yang Aman",
+          "teacherAction": "Guru melihat langkah murid berbalik arah dan berjalan tenang menuju tempat yang terang dan ramai.",
+          "teacherSpeech": "\"Bagus sekali! Sekarang segera langkahkan kakimu menjauh ke arah meja guru atau teman-teman.\"",
+          "studentAction": "Murid berbalik badan dan melangkah tenang menjauh dari posisi gangguan menuju tempat ramai.",
+          "studentSpeech": "\"Aku melangkah pergi ke tempat yang aman dan ramai.\"",
+          "audioSample": "Aku melangkah pergi ke tempat yang aman dan ramai.",
+          "tipsForTeacher": "Jelaskan bahwa menjauh adalah tanda anak yang cerdas dan mandiri dalam menjaga diri."
+        },
+        {
+          "stepIndex": 4,
+          "stepTitle": "Langkah 4: Melapor kepada Guru",
+          "teacherAction": "Guru menyambut murid dengan pelukan hangat dan senyum penuh dukungan di meja guru.",
+          "teacherSpeech": "\"Halo, terima kasih sudah datang melapor kepada Ibu Guru. Ceritakan apa yang tadi terjadi, Ibu Guru siap membantumu.\"",
+          "studentAction": "Murid berbicara jujur, berani, dan menceritakan kejadian yang dialaminya kepada Ibu Guru.",
+          "studentSpeech": "\"Bu Guru, tadi aku diejek. Tolong bantu saya ya Bu.\"",
+          "audioSample": "Bu Guru, tadi aku diejek. Tolong bantu saya ya Bu.",
+          "tipsForTeacher": "Tegaskan bahwa melapor kepada guru bukanlah mengadu yang buruk, melainkan hak perlindungan diri setiap anak."
+        }
+      ],
+      "criteriaChecklist": [
+        "Murid mampu menahan diri dan menarik napas tanpa membalas kekerasan",
+        "Murid mampu mengangkat tangan lurus tanda STOP",
+        "Murid mampu mengucapkan \"Aku tidak suka!\" dengan tegas",
+        "Murid mampu melangkah menjauh dan melapor jujur ke guru"
+      ]
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "q-lost-1",
+      "category": "tersesat",
+      "questionText": "Apa Langkah 1 yang harus kamu lakukan saat menyadari kamu tersesat?",
+      "audioQuestion": "Soal Pertama. Apa Langkah Satu yang harus kamu lakukan saat menyadari kamu tersesat di tempat umum?",
+      "options": [
+        {
+          "id": "q1-a",
+          "text": "Berhenti & tenang di tempat aman, tidak panik",
+          "imageIcon": "🛑",
+          "isCorrect": true,
+          "feedbackAudio": "Benar sekali! Langkah pertama adalah berhenti dan tenang di tempat yang aman dan terang."
+        },
+        {
+          "id": "q1-b",
+          "text": "Lari panik semakin jauh ke jalan raya",
+          "imageIcon": "🏃‍♂️",
+          "isCorrect": false,
+          "feedbackAudio": "Jangan lari ya. Berhenti di tempat aman agar tidak semakin jauh terpisah."
+        }
+      ]
+    },
+    {
+      "id": "q-lost-2",
+      "category": "tersesat",
+      "questionText": "Pada Langkah 2, siapa orang dewasa berseragam yang aman untuk dimintai tolong?",
+      "audioQuestion": "Soal Kedua. Pada Langkah Dua, siapa orang dewasa berseragam yang aman untuk dimintai tolong?",
+      "options": [
+        {
+          "id": "q2-a",
+          "text": "Petugas berseragam (Pak Satpam, kasir, atau polisi)",
+          "imageIcon": "👮‍♂️",
+          "isCorrect": true,
+          "feedbackAudio": "Pintar sekali! Petugas berseragam resmi seperti Pak Satpam atau kasir toko adalah penolong yang aman."
+        },
+        {
+          "id": "q2-b",
+          "text": "Orang asing tak dikenal yang mengajak pergi",
+          "imageIcon": "🙅‍♂️",
+          "isCorrect": false,
+          "feedbackAudio": "Hati-hati! Jangan pernah ikut orang asing yang tidak dikenal."
+        }
+      ]
+    },
+    {
+      "id": "q-lost-3",
+      "category": "tersesat",
+      "questionText": "Pada Langkah 3, bagaimana cara meminta bantuan saat tersesat?",
+      "audioQuestion": "Soal Ketiga. Pada Langkah Tiga, bagaimana cara meminta bantuan saat tersesat?",
+      "options": [
+        {
+          "id": "q3-a",
+          "text": "Menggunakan ponsel untuk menghubungi orang tua atau guru",
+          "imageIcon": "📱",
+          "isCorrect": true,
+          "feedbackAudio": "Hebat! Gunakan ponsel untuk segera menelepon orang tua atau guru."
+        },
+        {
+          "id": "q3-b",
+          "text": "Menangis sendirian di tempat yang gelap",
+          "imageIcon": "😭",
+          "isCorrect": false,
+          "feedbackAudio": "Jangan menangis di tempat gelap ya. Gunakan ponselmu untuk meminta bantuan."
+        }
+      ]
+    },
+    {
+      "id": "q-lost-4",
+      "category": "tersesat",
+      "questionText": "Pada Langkah 4, tombol apa yang bisa kamu tekan sebagai opsi tambahan?",
+      "audioQuestion": "Soal Keempat. Pada Langkah Empat, tombol apa yang bisa kamu tekan pada media sebagai opsi tambahan?",
+      "options": [
+        {
+          "id": "q4-a",
+          "text": "Menekan tombol darurat merah BANTUAN di paling bawah",
+          "imageIcon": "🚨",
+          "isCorrect": true,
+          "feedbackAudio": "Tepat sekali! Menekan tombol darurat merah Bantuan di paling bawah aplikasi menghubungkanmu ke telepon darurat."
+        },
+        {
+          "id": "q4-b",
+          "text": "Tombol mematikan layar ponsel",
+          "imageIcon": "📴",
+          "isCorrect": false,
+          "feedbackAudio": "Gunakan tombol merah Bantuan di aplikasi untuk meminta pertolongan cepat."
+        }
+      ]
+    },
+    {
+      "id": "q-lost-5",
+      "category": "tersesat",
+      "questionText": "Apa kesimpulan penting ketika tersesat di tempat umum?",
+      "audioQuestion": "Soal Kelima. Apa kesimpulan penting ketika kamu tersesat di komunitas?",
+      "options": [
+        {
+          "id": "q5-a",
+          "text": "Tetap tenang, cari orang dewasa aman, dan segera minta bantuan",
+          "imageIcon": "👍",
+          "isCorrect": true,
+          "feedbackAudio": "Luar biasa! Kesimpulannya: tetap tenang, cari orang dewasa aman, dan segera minta bantuan!"
+        },
+        {
+          "id": "q5-b",
+          "text": "Langsung pergi sendirian ke tempat asing",
+          "imageIcon": "❌",
+          "isCorrect": false,
+          "feedbackAudio": "Ingat selalu: tetap tenang, dekati satpam, dan minta bantuan."
+        }
+      ]
+    },
+    {
+      "id": "q-bully-1",
+      "category": "bullying",
+      "questionText": "Saat ada teman yang mengejek, apa Langkah 1 yang tepat?",
+      "audioQuestion": "Soal Pertama. Saat ada teman yang mengejek atau mengganggu, apa Langkah Satu yang tepat?",
+      "options": [
+        {
+          "id": "qb1-a",
+          "text": "Menahan diri, tarik napas, tidak membalas dengan kekerasan",
+          "imageIcon": "🧘‍♂️",
+          "isCorrect": true,
+          "feedbackAudio": "Hebat sekali! Langkah pertama adalah menahan diri dan menarik napas tenang tanpa membalas kekerasan."
+        },
+        {
+          "id": "qb1-b",
+          "text": "Membalas memukul dan berkelahi",
+          "imageIcon": "👊",
+          "isCorrect": false,
+          "feedbackAudio": "Jangan membalas dengan kekerasan ya. Tahan diri dan tarik napas dalam-dalam."
+        }
+      ]
+    },
+    {
+      "id": "q-bully-2",
+      "category": "bullying",
+      "questionText": "Pada Langkah 2, apa yang kamu ucapkan sambil mengangkat tangan?",
+      "audioQuestion": "Soal Kedua. Pada Langkah Dua, apa kalimat singkat dan tegas yang kamu ucapkan?",
+      "options": [
+        {
+          "id": "qb2-a",
+          "text": "Menyatakan ketidaksetujuan: \"Aku tidak suka! STOP!\"",
+          "imageIcon": "✋",
+          "isCorrect": true,
+          "feedbackAudio": "Pintar! Angkat telapak tangan ke depan dan katakan dengan tegas: Aku tidak suka!"
+        },
+        {
+          "id": "qb2-b",
+          "text": "Tertawa diam saja pura-pura senang",
+          "imageIcon": "🤐",
+          "isCorrect": false,
+          "feedbackAudio": "Katakan tidak suka secara tegas agar pelaku menghentikan tindakannya."
+        }
+      ]
+    },
+    {
+      "id": "q-bully-3",
+      "category": "bullying",
+      "questionText": "Pada Langkah 3, ke mana kamu harus melangkah setelah berkata STOP?",
+      "audioQuestion": "Soal Ketiga. Pada Langkah Tiga, ke mana kamu harus melangkah setelah menyatakan tidak suka?",
+      "options": [
+        {
+          "id": "qb3-a",
+          "text": "Menjauh dari pelaku perundungan ke tempat aman & ramai",
+          "imageIcon": "🚶‍♂️",
+          "isCorrect": true,
+          "feedbackAudio": "Tepat sekali! Segera langkahkan kakimu menjauh ke arah tempat yang aman dan ramai."
+        },
+        {
+          "id": "qb3-b",
+          "text": "Tetap berdiri diam menunggu diganggu lagi",
+          "imageIcon": "🧍",
+          "isCorrect": false,
+          "feedbackAudio": "Jangan tetap berdiri di sana ya. Langkah ketiga adalah segera menjauh."
+        }
+      ]
+    },
+    {
+      "id": "q-bully-4",
+      "category": "bullying",
+      "questionText": "Pada Langkah 4, kepada siapa kamu harus melapor kejadian perundungan?",
+      "audioQuestion": "Soal Keempat. Pada Langkah Empat, kepada siapa kamu harus melaporkan kejadian perundungan?",
+      "options": [
+        {
+          "id": "qb4-a",
+          "text": "Melapor kepada guru atau orang dewasa yang dipercaya",
+          "imageIcon": "👩‍🏫",
+          "isCorrect": true,
+          "feedbackAudio": "Benar sekali! Melaporkan kejadian kepada Ibu Guru atau orang dewasa dipercaya adalah tindakan berani!"
+        },
+        {
+          "id": "qb4-b",
+          "text": "Takut dan menyembunyikannya sendirian",
+          "imageIcon": "🤫",
+          "isCorrect": false,
+          "feedbackAudio": "Jangan disembunyikan ya. Guru selalu siap melindungi dan membantumu."
+        }
+      ]
+    },
+    {
+      "id": "q-bully-5",
+      "category": "bullying",
+      "questionText": "Apa kesimpulan sikap tepat saat diganggu atau diejek?",
+      "audioQuestion": "Soal Kelima. Apa kesimpulan empat langkah sikap tepat saat diganggu atau diejek?",
+      "options": [
+        {
+          "id": "qb5-a",
+          "text": "Menahan diri, tolak tegas, menjauh, dan melapor ke orang dewasa dipercaya",
+          "imageIcon": "🌟",
+          "isCorrect": true,
+          "feedbackAudio": "Luar biasa! Kesimpulannya: menahan diri, menolak tegas, menjauh, dan melapor kepada guru!"
+        },
+        {
+          "id": "qb5-b",
+          "text": "Membalas memukul lalu lari ketakutan",
+          "imageIcon": "❌",
+          "isCorrect": false,
+          "feedbackAudio": "Ingat 4 langkah tepat: tahan diri, tolak tegas, menjauh, dan lapor ke guru."
+        }
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "st-lost-safe",
+      "title": "Penjaga Diri saat Tersesat",
+      "description": "Menguasai 4 langkah meminta pertolongan saat tersesat di komunitas.",
+      "icon": "🧭",
+      "unlocked": true
+    },
+    {
+      "id": "st-no-bully",
+      "title": "Pahlawan \"Aku Tidak Suka!\"",
+      "description": "Menguasai 4 langkah sikap tepat saat diganggu atau diejek.",
+      "icon": "✋",
+      "unlocked": true
+    },
+    {
+      "id": "st-roleplay-star",
+      "title": "Bintang Praktik Guru-Murid",
+      "description": "Berhasil melakukan latihan simulasi bermain peran bersama Guru.",
+      "icon": "🎭",
+      "unlocked": false
+    },
+    {
+      "id": "st-master-safety",
+      "title": "Juara Buku Saku Keselamatan",
+      "description": "Menyelesaikan 5 soal kuis evaluasi dengan nilai sempurna!",
+      "icon": "🏆",
+      "unlocked": false
+    }
+  ]
+}
